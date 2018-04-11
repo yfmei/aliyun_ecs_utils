@@ -18,8 +18,8 @@ log_filename = os.path.join("logs/", log_filename)
 
 # 创建 AcsClient 实例
 client = AcsClient(
-   "xxxx",
-   "xxxx",
+   "xxxx",  # AccessKeyId
+   "xxxx",  # 密钥
    "cn-huhehaote"  # 华北5
    # "cn-shanghai"  # 华东2
    # 区域ID, 详见: https://www.alibabacloud.com/help/zh/doc-detail/40654.htm?spm=a3c0i.o63440zh.a3.11.4bbc722cxWWPJM
